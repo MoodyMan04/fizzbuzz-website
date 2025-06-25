@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>SCHEELS.COM FizzBuzz</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+
+  <body>
+    <script>
+      0;
+    </script>
+
+    <!-- Main Header  -->
+    <header class="main-header" id="mainHeader">
+      <!-- Ticker Tape Text Bar -->
+      <div class="ticker-bar" id="tickerBar">
+        <div class="ticker-text" id="tickerText">
+          Welcome to the SCHEELS FizzBuzz Website! Feel free to test and look
+          around!
+        </div>
+      </div>
+
+      <div class="header">
+        <a href="https://www.scheels.com" target="_blank" class="logo-link">
+          <img src="./resources/scheels_logo.svg" alt="SCHEELS" class="logo" />
+        </a>
+        <button id="themeBtn">
+          <img
+            src="./resources/theme_toggle.svg"
+            alt="Dark Mode"
+            class="button-icon"
+          />
+        </button>
+      </div>
+    </header>
+
+    <!-- Main FizzBuzz Container -->
+    <div class="container" style="margin: 10rem auto">
+      <h1>SCHEELS.COM FizzBuzz</h1>
+
+      <form>
+        <div class="form-row">
+          <label for="min">Start:</label>
+          <input type="number" id="minInput" value="1" />
+        </div>
+        <div class="form-row">
+          <label for="max">End:</label>
+          <input type="number" id="maxInput" value="100" />
+        </div>
+        <div class="form-row">
+          <label for="textThree">Text for 3x:</label>
+          <input type="text" id="textThreeInput" value="SCHEELS" />
+        </div>
+        <div class="form-row">
+          <label for="textFive">Text for 5x:</label>
+          <input type="text" id="textFiveInput" value=".COM" />
+        </div>
+      </form>
+
+      <div class="buttons">
+        <button id="runBtn">Run</button>
+        <button id="resetBtn">Reset</button>
+      </div>
+
+      <pre id="outputText" class="output"></pre>
+    </div>
+
+    <footer class="main-footer">
+      ©
+      <a href="https://github.com/MoodyMan04/" target="_blank">Gunnar Moody</a>
+      | 2025
+    </footer>
+
+    <script type="module" src="scripts/index.js" defer></script>
+  </body>
+</html>
